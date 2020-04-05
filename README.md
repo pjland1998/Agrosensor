@@ -9,6 +9,8 @@ Agrosensor is an automated plant monitoring system that monitors your plants hea
 Through our app, the user will be able to look at the history of their plant health, take pictures of their plant through our simple camera sensor embedded in the plant soil (for times when they're away and want to check up on their plant's health), or whatever they need to do in order to make sure their plant is healthy. With our product the days of inadvertently killing your house plants, or on a larger scale, your crops, are a thing of the past.
 
 
+# How to implement Agrosensor yourself
+
 ## Agrosensor site
 
 If you want to visit the site click [here](http://157.245.185.143/). We have only allowed you to interact with a tiny functionality of our project. Our server is the brain of the whole operation. 
