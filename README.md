@@ -9,7 +9,24 @@ Agrosensor is an automated plant monitoring system that monitors your plants hea
 Through our app, the user will be able to look at the history of their plant health, take pictures of their plant through our simple camera sensor embedded in the plant soil (for times when they're away and want to check up on their plant's health), or whatever they need to do in order to make sure their plant is healthy. With our product the days of inadvertently killing your house plants, or on a larger scale, your crops, are a thing of the past.
 
 
-# How to implement Agrosensor yourself
+# How To Implement Agrosensor
+
+If you want to implement agrosensor yourself we are providing a guide for you to do so yourself. The equipment (sensors, arduino boards, etc.) are what we used. If you want to use you own sensors that's fine, but the arduino code might not work if you use a board other than the Arduino Uno Wifi REV 2. We have broken down the implementation process in the following steps:
+
+### Implementing the web server
+
+Implementing the web server will be easy. Implement Nginx on an Ubuntu web server and install PHP and MySQL. If you don't know how to dp this tutorials on how to do so are easy to find and follow. If this is the first time you're doing something like this we recommend using Digital Ocean.
+
+Once you're server is set up, simply add add the files contained in server_files to the /var/www/html directory on your server. Again, make sure your server has php, and mysql installed. 
+
+### Implementing the Arduino and Sensor Code
+
+This section highlights how to implement the Arduino and Sensor code
+
+### Implementing the phone app code
+
+This section explains how to implement the app code
+
 
 ## Agrosensor site
 
