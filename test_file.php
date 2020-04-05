@@ -1,6 +1,6 @@
 <?php
 function very_convoluted_function($argument) {
-	echo "Playing with this argument ofr arguments sake\n";
+	echo "Playing with this argument for arguments sake\n";
 }
 
 function sum(int $x, int $y) {
