@@ -15,7 +15,7 @@ We are providing this guide so that you will be easily able to implement Agrosen
 
 ### Implementing the web server
 
-Implementing the web server will be easy. Implement Nginx on an Ubuntu web server and install PHP and MySQL. If you don't know how to dp this tutorials on how to do so are easy to find and follow. If this is the first time you're doing something like this we recommend using Digital Ocean.
+Implementing the web server will be easy. Implement Nginx on an Ubuntu web server and install PHP and MySQL. If you don't know how to do this, tutorials on how to do so are easy to find and follow. If this is the first time you're doing something like this we recommend using Digital Ocean.
 
 Once you're server is set up, simply add add the files contained in server_files to the /var/www/html directory on your server. Again, make sure your server has php, and mysql installed. 
 
