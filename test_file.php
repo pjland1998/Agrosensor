@@ -5,6 +5,6 @@ function sum(int $x, int $y) {
 }
 
 echo "The sum of 6 and 5 is " . sum (5, 6) . "\n"; 
-echo "Calculation calculated\n";
+echo "We don't need this anymore\n";
 
 ?>
