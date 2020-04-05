@@ -11,7 +11,7 @@ Through our app, the user will be able to look at the history of their plant hea
 
 # How To Implement Agrosensor
 
-If you want to implement agrosensor yourself we are providing a guide for you to do so yourself. The equipment (sensors, arduino boards, etc.) are what we used. If you want to use you own sensors that's fine, but the arduino code might not work if you use a board other than the Arduino Uno Wifi REV 2. We have broken down the implementation process in the following steps:
+We are providing this guide so that you will be easily able to implement Agrosensor yourself. The equipment (sensors, arduino boards, etc.) are what we used. If you want to use you own sensors that's fine, but the arduino code might not work if you use a board other than the Arduino Uno Wifi REV 2. We have broken down the implementation process in the following steps:
 
 ### Implementing the web server
 
