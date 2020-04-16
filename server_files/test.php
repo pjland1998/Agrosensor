@@ -14,16 +14,16 @@
 	
 	$Name = "RTELL";
 	$Air_Temp = 45.1;
-	$Soil_Temp = "44.0";
+	//$Soil_Temp = "44.0";
 	$pH_Level = "90.1";
 	$Soil_Moisture = "40.2";
 	$Humidity = "40.3";
 	$Date = date("md");
-	$newDate = sprintf("%04d", $Date);
+	$newDate = sprintf("%04s", $Date);
 	
 	echo $newDate;
 	
-	$sql = "INSERT INTO plant_measurements (Name, Air_Temp, Soil_Temp, pH_Level, Soil_Moisture, Humidity, Date) VALUES ('$Name', '$Air_Temp', '$Soil_Temp', '$pH_Level', '$Soil_Moisture', '$Humidity', '$newDate')";
+	$sql = "INSERT INTO plant_measurements (Name, Air_Temp, pH_Level, Soil_Moisture, Humidity, Date) VALUES ('$Name', '$Air_Temp', '$pH_Level', '$Soil_Moisture', '$Humidity', '$newDate')";
 	
 	if (!mysqli_query($con, $sql)) {
 		echo "Not Inserted" . " " . mysqli_connect_error();
