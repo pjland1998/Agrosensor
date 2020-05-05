@@ -42,8 +42,6 @@ String base64::encode(uint8_t * data, size_t length) {
 
 //char ssid[] = "";     // home network - Insert your unique ssid and its corresponding password
 //char pass[] = "";
-char ssid[] = "ram";     // phone hotspot
-char pass[] = "63fhdiw5cak4g";
 int status = WL_IDLE_STATUS;     // the Wifi radio's status
 
 char server[] = "157.245.185.143"; // Used to contact our server for scripts
@@ -91,7 +89,7 @@ void setup()
   // attempting to connect to WiFi network:
   while (status != WL_CONNECTED) {
     Serial.print("Attempting to connect to WPA SSID: ");
-    Serial.println("YourNetwork");
+    Serial.println(ssid);
     // Connect to WPA/WPA2 network:
     status = WiFi.begin(ssid, pass);
    //status = WiFi.begin(ssid); //comment this for guest network (eaglenet)
