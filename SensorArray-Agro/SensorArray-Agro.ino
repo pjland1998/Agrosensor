@@ -39,7 +39,6 @@
 * and so the data is wrapped in the < start marker and the > end marker.
 * 
 * Note on Metro Library: 
-* 
 * The metro library allows the sensors that control the temperature, humidity,
 * and soil moisture to be read every so often without having to stop the program.
 * This allows devices such as the pH sensor to be read in manually.
